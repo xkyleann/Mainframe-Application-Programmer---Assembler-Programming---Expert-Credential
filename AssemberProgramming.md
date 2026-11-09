@@ -9,17 +9,5 @@ There are no fixed rules or requirements for the Assembler programs, still there
 
 ```mermaid
 flowchart TB
-    subgraph Program_Structure
-        P["1 - Prologue"]
-        I["1 - Initialization"]
-        M["1 - Main Line"]
-        T["1 - Termination"]
-        E["1 - Epilogue"]
-        S["1 - Subroutines"]
-        D["1 - Data Definitions"]
-        PL["1 - Parameter Lists"]
-        DM["1 - Data Maps"]
-
-        P --> I --> M --> T --> E --> S --> D --> PL --> DM
-    end
+    A["Prologue<br/>Initialization<br/>Main Line<br/>Termination<br/>Epilogue<br/>Subroutines<br/>Data Definitions<br/>Parameter Lists<br/>Data Maps"]
 ```
